@@ -1,0 +1,42 @@
+.tvshow-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .tvshow-item {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 1px 2.5px 10px white;
+    margin-bottom: 70px;
+    padding-bottom: 10px;
+    transition: all .3s ease;
+  }
+  
+  .tvshow-item:hover {
+    box-shadow: none;
+    transform: scale(1.1);
+  }
+  
+  .tvshow-img {
+    margin-bottom: 20px;
+    width: 400px;
+    transition: all 0.5s ease;
+  }
+  
+  .tvshow-img:hover {
+      transform: scale(1.1);
+  }
+  
+  .tvshow-title {
+      margin-bottom: 10px;
+      margin-left: 13px;
+  }
+  
+  .tvshow-time {
+      margin-left: 14px;
+      font-weight: bold;
+      font-size: 20px;
+      color: rgb(163, 163, 163);
+      
+  }
